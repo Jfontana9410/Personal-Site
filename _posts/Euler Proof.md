@@ -10,4 +10,4 @@ tags:
 ---
 
 
-<iframe src="../../euler.html>
+
