@@ -27,5 +27,8 @@ We create a main.py python file.  We discussed the benefits of a text editor wit
 
 The class moved onto Fizzbuzz.  It is a game where the group counts numbers starting at 1.  When the number is a multiple of 3 the player is supposed to say fizz instead of the number.  The players are supposed to say buzz when the number is a multiple of 5.  Players also say fizzbuzz when the number meets both criteria.  The game gets more hectic as the number count gets higher.  
 
-We move onto group programming the game of fizzbuzz ourselves.  Dr. C set us up with a basic script to count to a variable game length that we can change later.  
+We move onto group programming the game of fizzbuzz ourselves.  Dr. C set us up with a basic script to count to a variable game length that we can change later. We set the variable to 100 for now.    
 
+We wrote a few comments with rules, source, and expected outputs through 30.  We then proceeded to write a loop involving the variable game length that we set earlier.  Lastly we talked about if , else loops.  We stopped coding here and discussed other class matters and then prepared to leave.  
+
+I am looking forward to learning more python and coding skills in the future as I am certain it will increase my opportunities for employment.  
