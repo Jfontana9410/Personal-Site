@@ -11,7 +11,15 @@ tags:
 
 Today in class we discussed Python and Codespaces.  First we discussed setting up a Jekyll template for our eportfolios.  We added a webrick line to the gem file, then we used bundle followed by jekyll serve to launch our preview website to edit freely.  Jekyll runs off ruby code.  We downloaded suggested packs from the codespace such as python extensions.  This will be quite useful for developing our own websites.
 
+We discussed plans for the next few weeks. Fortunately for me, we are going to learn some python and base coding that will be useful for an AI lecture later in the semester. I am excited for that as I am interested in ai development and the gateway to get into that industry.  
 
-LaTeX was discussed in class. LaTeX is a prevalent document system in the Mathematics and Statistics world.   LaTeX is a markup language made to create pdf's.  LaTeX is used by a multitude of service providers.  Overleaf is  one we used in class. Overleaf is free and allows the creation of PDF's in a very easy manner.   Overleaf is accessible online and functions somewhat similarly to google drive.  
-<p> We also installed a LaTeX codespace on github using a premade repository from someone else.  We talked about various commands in the codespace as well as some functions for Github coding.  Overleaf has extensive tutorials available for many functions of LaTeX.  Another resource on kirelabs.org was discussed for finding the greek symbols and what packages to use when writing them.  
-<p> A discussion of how articles are made up continued.   This included discussion of titles, preambles, sections, and creation lines.   The purpose of brackets {} is established for grouping in LaTeX.  Parenthesis are used for comments.  Concepts such as continued functions until line breaks were discussed as well.  Entering equations and greek letters were taught including use of double $ dollar signs or back slash brackets.  Numbering equations was taught.  a gitignore function was displayed to show how to post only what you want to publicly post in a repository.  
+Next we created a codespace for coding with.  We note that an empty repository will load a codespace much more quickly than a forked repository.
+We test some basic math equations and see that the codespace is working.  Next we look into REPL, read eval. print loop.   
+
+We discuss two ways to create a loop in python.  One way is for num and prints out 100 responses. The second way is to use _ underscore instead of num, with _ underscore being a variable.
+This gives the loop the ability to not count 0 to get a more accurate print out.
+
+We then talk about a REPL displaying how to calculate the sum of all numbers in a range of 1 to 101. 
+
+Dr. C whipped out some sagemath and linear algebra on us to show if the answer in the codespace was correct, which it was, and to show us a quicker way to number crunch instead of coding it out in the codespace.  We talked a bit more about Sagemaths capabilities.  
+
