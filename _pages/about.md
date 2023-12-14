@@ -8,7 +8,7 @@ John Fontana is a Mathematics and Statistics major attending the University of S
 John graduated from St. Paul's Episcopal High School and has attended university level classes at the University of Alabama as well as the University of South Alabama.  He is also a history and science enthusiast, almost choosing to major in Physics before settling on math and stats.  
 
 <h1> Contact <h1>
-
+<h6>
 John Fontana
 Jf2023@jagmail.southalabama.edu
 Mobile, Alabama
