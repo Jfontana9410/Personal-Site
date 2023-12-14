@@ -4,7 +4,7 @@ title: "Resume"
 ---
 
 
-[Resume as PDF](/assets/Resume.pdf)
+[Resume as PDF](../assets/Resume.pdf)
 
 ## Goals
 
