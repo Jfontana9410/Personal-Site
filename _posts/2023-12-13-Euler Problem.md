@@ -1,5 +1,5 @@
 ---
-title: "Euler Proof"
+title: "Euler Problem"
 excerpt_seperator: <!--more-->"
 categories:
     - Blog
