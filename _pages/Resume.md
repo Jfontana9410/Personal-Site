@@ -13,7 +13,7 @@ I want to learn AI development and to conquer the business world :).
 ## Education
 HS Diploma 2012, St. Paul's Episcopal School
 Math and Statistics graduating 2024, University of South Alabama 
-
+a
 ## Job History
 
 - Clinical Assistant, Alabama Orthopeadic Clinic (Summers 2010-2013)
