@@ -1,5 +1,5 @@
 ---
-title: "LaTeX Blog 12-13-2023"
+title: "Python and Codespaces Blog 12-13-2023"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
