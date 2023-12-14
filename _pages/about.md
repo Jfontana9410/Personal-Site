@@ -3,6 +3,12 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+John Fontana is a Mathematics and Statistics major attending the University of South Alabama.  He is known for his leadership skills amongst online communities as well as a passion for science and math.  Planning to graduate in Spring 2024, John has ambitions to conquer the AI development world.  
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+John graduated from St. Paul's Episcopal High School and has attended university level classes at the University of Alabama as well as the University of South Alabama.  He is also a history and science enthusiast, almost choosing to major in Physics before settling on math and stats.  
+
+<h1> Contact <h1>
+
+John Fontana
+Jf2023@jagmail.southalabama.edu
+Mobile, Alabama
