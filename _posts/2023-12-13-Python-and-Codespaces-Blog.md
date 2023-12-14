@@ -9,6 +9,8 @@ tags:
   - Coding
 ---
 
+Today in class we discussed Python and Codespaces.  First we discussed setting up a Jekyll template for our eportfolios.  We added a webrick line to the gem file, then we used bundle followed by jekyll serve to launch our preview website to edit freely.  Jekyll runs off ruby code.  We downloaded suggested packs from the codespace such as python extensions.  This will be quite useful for developing our own websites.
+
 
 LaTeX was discussed in class. LaTeX is a prevalent document system in the Mathematics and Statistics world.   LaTeX is a markup language made to create pdf's.  LaTeX is used by a multitude of service providers.  Overleaf is  one we used in class. Overleaf is free and allows the creation of PDF's in a very easy manner.   Overleaf is accessible online and functions somewhat similarly to google drive.  
 <p> We also installed a LaTeX codespace on github using a premade repository from someone else.  We talked about various commands in the codespace as well as some functions for Github coding.  Overleaf has extensive tutorials available for many functions of LaTeX.  Another resource on kirelabs.org was discussed for finding the greek symbols and what packages to use when writing them.  
