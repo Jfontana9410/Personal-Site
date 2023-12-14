@@ -21,5 +21,11 @@ This gives the loop the ability to not count 0 to get a more accurate print out.
 
 We then talk about a REPL displaying how to calculate the sum of all numbers in a range of 1 to 101. 
 
-Dr. C whipped out some sagemath and linear algebra on us to show if the answer in the codespace was correct, which it was, and to show us a quicker way to number crunch instead of coding it out in the codespace.  We talked a bit more about Sagemaths capabilities.  
+Dr. C whipped out some sagemath and linear algebra on us to show if the answer in the codespace was correct, which it was, and to show us a quicker way to number crunch instead of coding it out in the codespace.  After flexxing sagemaths capabilities for a few minutes we got into the good stuff.
+
+We create a main.py python file.  We discussed the benefits of a text editor with color coding.  We do some simple hello world and similar prints and then talk about terminating processes.  We want to execute the code 
+
+The class moved onto Fizzbuzz.  It is a game where the group counts numbers starting at 1.  When the number is a multiple of 3 the player is supposed to say fizz instead of the number.  The players are supposed to say buzz when the number is a multiple of 5.  Players also say fizzbuzz when the number meets both criteria.  The game gets more hectic as the number count gets higher.  
+
+We move onto group programming the game of fizzbuzz ourselves.  Dr. C set us up with a basic script to count to a variable game length that we can change later.  
 
