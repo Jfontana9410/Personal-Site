@@ -2,7 +2,10 @@
 permalink: /Resume/
 title: "Resume"
 ---
+
+
 [Resume as PDF](/assets/Resume.pdf)
+
 ## Goals
 
 I want to learn AI development and to conquer the business world :). 
