@@ -1,6 +1,6 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /Resume/
+title: "Resume"
 ---
 
 John Fontana is a Mathematics and Statistics major attending the University of South Alabama.  He is known for his leadership skills amongst online communities as well as a passion for science and math.  Planning to graduate in Spring 2024, John has ambitions to conquer the AI development world.  
