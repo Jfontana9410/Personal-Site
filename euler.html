@@ -7475,7 +7475,19 @@ a.anchor-link {
 </style>
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<main><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<main>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.</p>
+<p>What is the 10,001st prime number?</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7483,7 +7495,20 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="mi">2</span><span class="o">+</span><span class="mi">2</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">sp</span><span class="o">=</span><span class="mi">2</span>
+<span class="n">cnt</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">cnt</span> <span class="o">&lt;=</span> <span class="mi">10001</span><span class="p">:</span>
+    <span class="n">primeflag</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">sp</span><span class="p">):</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">sp</span><span class="o">%</span><span class="k">j</span> == 0):
+            <span class="n">primeflag</span> <span class="o">=</span> <span class="mi">1</span>
+            <span class="k">break</span><span class="p">;</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">primeflag</span> <span class="o">==</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="k">pass</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">cnt</span> <span class="p">,</span><span class="n">sp</span><span class="p">)</span>
+        <span class="n">cnt</span> <span class="o">=</span> <span class="n">cnt</span> <span class="o">+</span><span class="mi">1</span>
+    <span class="n">sp</span> <span class="o">=</span><span class="n">sp</span><span class="o">+</span><span class="mi">1</span>
 </pre></div>
 </div>
 </div>
@@ -7497,6 +7522,35 @@ a.anchor-link {
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>4</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">I</span> <span class="n">got</span> <span class="n">the</span> <span class="n">above</span> <span class="n">algorithm</span> <span class="kn">from</span> <span class="p">[</span><span class="n">StackOverflow</span><span class="p">](</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">stackoverflow</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">questions</span><span class="o">/</span><span class="mi">40205471</span><span class="o">/</span><span class="n">find</span><span class="o">-</span><span class="n">the</span><span class="o">-</span><span class="mi">10001</span><span class="n">st</span><span class="o">-</span><span class="n">prime</span><span class="p">)</span><span class="o">.</span>
+<span class="n">This</span> <span class="ow">is</span> <span class="n">coded</span> <span class="ow">in</span> <span class="n">python</span><span class="o">.</span> <span class="n">Why</span> <span class="n">does</span> <span class="n">this</span> <span class="n">work</span><span class="err">?</span> <span class="n">Let</span><span class="s1">'s go through it line by line.</span>
+
+<span class="n">We</span> <span class="n">start</span> <span class="k">with</span> <span class="n">sp</span><span class="o">=</span><span class="mi">2</span> <span class="n">because</span> <span class="n">that</span> <span class="ow">is</span> <span class="n">the</span> <span class="n">first</span> <span class="n">prime</span> <span class="n">number</span><span class="o">.</span> 
+<span class="n">Then</span> <span class="n">we</span> <span class="nb">set</span> <span class="n">the</span> <span class="n">code</span> <span class="n">to</span> <span class="n">count</span> <span class="n">primes</span> <span class="n">it</span> <span class="n">flags</span> <span class="n">until</span> <span class="n">it</span> <span class="n">reaches</span> <span class="n">the</span> <span class="mi">10</span><span class="p">,</span><span class="mi">001</span><span class="n">th</span> <span class="n">one</span><span class="o">.</span>
+
+<span class="n">We</span> <span class="n">then</span> <span class="n">increase</span> <span class="n">the</span> <span class="n">value</span> <span class="n">of</span> <span class="n">the</span> <span class="n">sp</span> <span class="n">value</span> <span class="ow">and</span> <span class="n">check</span> <span class="n">to</span> <span class="n">see</span> <span class="k">if</span> <span class="n">there</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">remainder</span> 
+<span class="n">when</span> <span class="n">dividing</span> <span class="n">the</span> <span class="n">current</span> <span class="n">sp</span> <span class="n">value</span> <span class="n">by</span> <span class="n">previous</span> <span class="n">primes</span><span class="o">.</span>
+
+<span class="n">If</span> <span class="n">there</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">remainder</span> <span class="n">then</span> <span class="n">the</span> <span class="n">value</span> <span class="ow">is</span> <span class="n">saved</span> <span class="k">as</span> <span class="n">a</span> <span class="n">prime</span><span class="p">,</span> 
+<span class="ow">and</span> <span class="n">the</span> <span class="n">loop</span> <span class="n">repeats</span> <span class="n">until</span> <span class="mi">10</span><span class="p">,</span><span class="mi">001</span> <span class="n">are</span> <span class="n">flagged</span> <span class="k">as</span> <span class="n">primes</span>
+
+<span class="n">If</span> <span class="n">there</span> <span class="ow">is</span> <span class="n">no</span> <span class="n">remainder</span> <span class="n">the</span> <span class="n">value</span> <span class="ow">is</span> <span class="n">tossed</span> <span class="n">out</span><span class="p">,</span> <span class="ow">and</span> <span class="n">a</span> <span class="n">new</span> <span class="n">value</span> <span class="ow">is</span> <span class="n">checked</span> <span class="n">by</span> 
+<span class="n">increasing</span> <span class="n">by</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">running</span> <span class="n">the</span> <span class="n">loop</span> <span class="n">again</span><span class="o">.</span>
+
+<span class="n">The</span> <span class="n">program</span> <span class="n">supplies</span> <span class="mi">104743</span> <span class="n">which</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">prime</span> <span class="n">number</span> <span class="ow">and</span> <span class="ow">is</span> <span class="n">indeed</span> <span class="n">the</span> <span class="mi">10001</span><span class="n">th</span> <span class="n">prime</span>
+</pre></div>
 </div>
 </div>
 </div>
